@@ -15,10 +15,10 @@ Con esto vamos a hacer el ejemplo de un Devops Pipeline, para que no les digan, 
 Agregar esta madre.
 
 ## Create locally and manually the Container
-    $ sudo docker build -t kevinpina/devops .
+    $ sudo docker build -t ryukusanagi/devops .
 
 ## Run locally, When the Container is already created or in Docker Store!
-    $ sudo docker run -p 49160:8080 -d kevinpina/devops
+    $ sudo docker run -p 49160:8080 -d ryukusanagi/devops
 
 # Visit
     http://127.0.0.1:49160/
