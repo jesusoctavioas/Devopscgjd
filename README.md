@@ -4,18 +4,22 @@ Esta es una aplicacion basica de hola mundo  + la configuracion de docker hub+ l
 
 Incluye el dockerfile para construirlo en docker build y jenkins para el ejemplo de pipeline.
 
-Develop all the process from Code to Version to Dockerized to Deploy (Source Code + Github + DockerHub + Jenkins).
-Con esto vamos a hacer el ejemplo de un Devops Pipeline, para que no les digan, para que no les cuenten (Source Code + Github + DockerHub + Jenkins).
+Develop all the process from Code to Version to Dockerized to Deploy (Source Code + Github + Jenkins + DockerHub).
+Con esto vamos a hacer el ejemplo de un Devops Pipeline, para que no les digan, para que no les cuenten (Source Code + Github + Jenkins + DockerHub).
 
-# Running locally 
-    $ npm install
-    $ npm start or $ node main.js
-    $ sudo yum install docker -y
+# Running locally via curl or yum
+    $ curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
+    $ sudo yum install nodejs -y
+    $ sudo yum install gcc-c++ make
+    $ rpm -iUvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+    $ sudo yum install docker-io -y
     $ sudo yum install nano -y
     $ sudo yum install w3m -y
+    $ sudo service docker start
+    $ sudo chkconfig docker on
 
 # Running locally in a Container
-Agregar esta madre.
+    $ docker pull ryukusanagi/devops
 
 ## Create locally and manually the Container
     $ sudo docker build -t ryukusanagi/devops .
