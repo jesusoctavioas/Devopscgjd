@@ -10,8 +10,9 @@ Con esto vamos a hacer el ejemplo de un Devops Pipeline, para que no les digan, 
 # Running locally 
     $ npm install
     $ npm start or $ node main.js
-    $ yum install docker -y
-    $ yum install nano -y
+    $ sudo yum install docker -y
+    $ sudo yum install nano -y
+    $ sudo yum install w3m -y
 
 # Running locally in a Container
 Agregar esta madre.
