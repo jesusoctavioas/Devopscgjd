@@ -1,6 +1,6 @@
 # Hello Node
-This is a very basic Hello World application  with Node.
-Esta es una aplicacion basica de hola mundo fusilada de un sitio + la configuracion de docker hub+ la configuracion de jenkins.
+This is a very basic Hello World application with Node.
+Esta es una aplicacion basica de hola mundo  + la configuracion de docker hub+ la configuracion de jenkins.
 
 Incluye el dockerfile para construirlo en docker build y jenkins para el ejemplo de pipeline.
 
@@ -10,6 +10,8 @@ Con esto vamos a hacer el ejemplo de un Devops Pipeline, para que no les digan, 
 # Running locally 
     $ npm install
     $ npm start or $ node main.js
+    $ yum install docker -y
+    $ yum install nano -y
 
 # Running locally in a Container
 Agregar esta madre.
